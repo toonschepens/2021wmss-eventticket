@@ -1,0 +1,63 @@
+:root {
+    --mainColor: #63F0E8;
+    --grey: #D4D4D4;
+  }
+
+*{
+    font-family: "Helvetica";
+    font-weight: normal;
+}
+header {
+    background-color:var(--mainColor);
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-items: center;
+}
+
+.title {
+    font-size: 44px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 240px;
+    display: block;
+}
+.headerButton {
+    height: 44px;
+    border-radius: 0;
+    font-size: 30px;
+    margin: 5px;
+    text-align: center;
+    border: solid 1px black;
+}
+#homeButton {
+    color: black;
+    background-color: var(--mainColor);
+    min-width: 120px;
+    position: absolute;
+    left: 0;
+}
+.search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    right: 0;
+}
+#searchButton {
+    color: black;
+    background-color: var(--grey);
+}
+#searchBox {
+    font-size: 25px;
+    padding:5.5px 2px ;
+    min-width: 160px;
+    max-width: 240px;      
+}
